@@ -95,9 +95,9 @@ fetch("./data/Untitled GeoJSON from Colab.geojson")
             layer.bindPopup(`
                 <b>${p.name}</b><br>
 
-                ID：${p.id}<br>
+                ID：${p.node_id}<br>
 
-                危険度：${p.highway}<br>
+                危険度：${p.risk_score}<br>
 
                 
             `);
